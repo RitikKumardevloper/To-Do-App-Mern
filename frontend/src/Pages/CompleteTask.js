@@ -25,7 +25,7 @@ const CompleteTask = () => {
     };
 
     fetchUserData();
-  }, []); // Empty dependency array to run only once
+  }, [ headers]); // Empty dependency array to run only once
   console.log(data);
 
   return (
