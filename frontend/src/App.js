@@ -7,7 +7,7 @@ import AllTasks from "./Pages/AllTasks";
 import ImportantTasks from "./Pages/ImportantTasks";
 import SingUp from "./Pages/SingUp";
 import Login from "./Pages/Login";
-import AdminPanel from "./Admin/AdminPanel";
+
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
 import { authActions } from "./store/auth";
@@ -36,7 +36,7 @@ function App() {
           </Route>
           <Route path="/signup" element={<SingUp />} />
           <Route path="/login" element={<Login />} />
-          <Route path="/AdminPanel" element={<AdminPanel />} />
+         
         </Routes>
       </div>
     </>
